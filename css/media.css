@@ -1,0 +1,23 @@
+@media (min-width: 700px) {
+  .header-and-main {
+    display: grid;
+    grid-template-columns: 100px auto;
+    gap: 50px;
+  }
+
+  .content-wrapper {
+    background-color: transparent;
+  }
+
+  .content-wrapper-background {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    transform: skew(25deg);
+    z-index: 99;
+  }
+}
